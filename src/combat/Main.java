@@ -1,7 +1,9 @@
+package combat;
+
 import java.util.Scanner;
 import java.util.Random;
 
-public class Combat {
+public class Main {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         System.out.println("Attack Points of the Monster:");
