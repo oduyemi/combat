@@ -38,6 +38,7 @@ public class Main {
                 System.out.println("Monster's life = "+monsterLife);
             }else{
                 System.out.println("Your attack not successful");
+                System.out.println("You lose!");
 
             }
         }else{
@@ -52,6 +53,7 @@ public class Main {
                 System.out.println("Your life = "+yourLife);
             }else{
                 System.out.println("Monster's attack not successful");
+                System.out.println("You win!");
         }
     }
 }}
